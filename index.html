@@ -1,15 +1,114 @@
 ---
 layout: default
-title: Nobody said anything about that
 ---
 
-<!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8">
-    <title>{</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
+<div class="pure-g-r">
+	<div class="pure-u-1-2 left-bar">
+		<div class="pure-u-1 content">
+			<div class="pure-u-1 headline article">
+
+
+
+				<!-- /////////////////////////////////////////////////////// -->
+
+				<div id="spiffySlides">
+				    <ul class="slides">
+				        <li class="active">
+				            <a href="images/2014FTL5k/1.jpg" class="fullsize"><img src="images/paginator/1.jpg"></a>
+				        </li>
+				        <li>
+				            <a href="images/2014FTL5k/2.jpg" class="fullsize"><img src="images/paginator/2.jpg"></a>
+				        </li>
+				        <li>
+				            <a href="images/2014FTL5k/3.jpg" class="fullsize"><img src="images/paginator/3.jpg"></a>
+				        </li>
+				    </ul>
+				    <ul class="controls">
+				        <li class="active"><a href="#slide-1">1</a></li>
+				        <li><a href="#slide-2">2</a></li>
+				        <li><a href="#slide-3">3</a></li>
+				    </ul>
+				    <div class="paused">Click for full size</div>
+				</div>
+
+
+
+				<!-- <img src="images/FTL2014-resized.jpg" width="600"> -->
+
+
+
+				
+				<h3 class="pure-u-1">Americans win gold in 5 kilometer race!</h3>
+				<p>Joe Schlimmer brings home the hardware.</a></p>
+        
+                <ul>
+                    {% for post in site.posts limit: 5 %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+			</div>
+
+			<div class="pure-u-1 article">
+					<div class="pure-u-1">
+						<img class="floatLeft" src="images/50.jpg" width="150">
+						<h3 class="pure-u">A study has shown that cardio may have adverse effects on muscle gains.</h3>
+						<p>Ben Schlimmer explains the details of the study on his <a href="http://www.benschlimmer.com/">blog.</a></p>
+					</div>
+			</div>
+			<div class="pure-u-1 article">
+					<div class="pure-u-1">
+						<img class="floatLeft" src="images/faint.jpg" width="150">
+						<h3 class="pure-u">The doge gif causes mass seizures on Madison St.</h3>
+						<p>Immediate treatment with heavy doses of Chinese food is the only cure, scientists say.</p>
+					</div>
+			</div>
+			<div class="pure-u-1 article">
+					<div class="pure-u-1">
+						<img class="floatLeft" src="images/doge-meme.gif" width="150">
+						<h3 class="pure-u">A yellow doge takes the meme world by storm</h3>
+						<p>Read more about it on <a href="http://theresaschlimmer.com">theresaschlimmer.com</a></p>
+					</div>
+			</div>
+			<div class="pure-u-1 article">
+					<div class="pure-u-1">
+						<img class="floatLeft" src="images/cat.jpg" width="150">
+						<h3 class="pure-u">Are Kittens or Dogs the superior pet?</h3>
+						<p>Pros and Cons of each type</p>
+					</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="pure-u-1-5 center-bar">
+		<div class="pure-u-1 content">
+			<h1 class="pure-u-1 section-header">Latest News</h1>
+			<div class="pure-u-1 article">
+				<h2>A horrifying moment!</h2>
+				<p>For over 2 minutes, the Schlimmers were disconnected from the World Wide Web. A panic was prevented by whipping out cellphones.</p>
+			</div>
+			<div class="pure-u-1 article">
+				<h2>Joe just got a new mouse!</h2>
+				<p>It doesn't wobble, and it has middle mouse click. Heaven!</p>
+			</div>
+			<div class="pure-u-1 article">
+				<h2>All the Schlimmers get domain names!</h2>
+				<p>The web presence of paddlers increases</p>
+			</div>
+			<div class="pure-u-1 article">
+				<h2>We burst a water pipe</h2>
+				<p>Heroic actions by Francis prevent disaster</p>
+			</div>
+		</div>
+	</div>
+	<div class="pure-u-1-4 right-bar">
+			<div class="pure-u-1 content">
+				<h1 class="pure-u-1 section-header">Exclusives</h1>
+				<div class="pure-u-1 article">
+					<img src="images/taco-bell-logo.jpeg" width="150">
+					<h4>omg food</h4>
+					<h3>Is Taco Bell the greatest restaurant of all time? </h3>
+					<h3>Interview with a fan</h3>
+				</div>
+			</div>
+		</div>
+</div>
