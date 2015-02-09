@@ -24,7 +24,7 @@ body {
 
 .donate {
     float:right;
-    margin-top: -51px;
+    /*margin-top: -51px;*/
 }
 
 #donatetext {
@@ -51,12 +51,12 @@ h4 {
 	margin-bottom: .4em;
 }
 .content {
-	padding: 15px;
+	width:100%;
 }
 
 .article {
 	border-bottom: 1px solid #ddd;
-	padding: 0 5px 15px 5px;
+	width:100%;
 }
 
 .floatLeft {
@@ -69,17 +69,19 @@ h4 {
 	height: 2.25em;
 }
 
+.container {
+	padding-left:15px;
+	padding-right:15px;
+}
+
 .right-bar h3 {
 	color: #333;
 	font-family: 1em;
 	font-weight: normal;
 	margin-top:0.3em;
+
 }
 
-.right-bar .article {
-	text-align: center;
-	padding:15px;
-}
 .section-header {
 	color: #AA0016;
 	font-family: Arial, Helvetica, sans-serif;
@@ -98,23 +100,6 @@ h4 {
     text-align: center;
 }
 
-@media (max-width: 767px) {
-
-	.header {
-		text-align: center;
-	}
-
-	.headline h3 {
-		font-size:180%;
-	}
-
-	.right-bar .article {
-		display:inline-block;
-		width:30%;
-		padding:0;
-		border:none;
-	}
-}
 
 
 #spiffySlides {
