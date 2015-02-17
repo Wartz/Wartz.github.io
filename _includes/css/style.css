@@ -3,6 +3,11 @@
 
 body {
 	font-family: serif;
+    height: 100%;
+}
+
+html {
+        min-height:100%;
 }
 
 .header {
@@ -110,10 +115,12 @@ h4 {
 
 #footer {
         margin: auto;
-        max-width: 1024px;
+        width: 100%;
         padding-top: 2em;
         text-align: center;
-	    border-top:1px solid #ddd;
+	    border-top: 1px solid #ddd;
+        position: absolute;
+        bottom: 0;
 }
 
 #spiffySlides {
