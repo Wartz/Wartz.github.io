@@ -7,18 +7,10 @@ layout: default
 		<div class="pure-u-1 content">
 			<div class="pure-u-1 headline article">
 				<!-- /////////////////////////////////////////////////////// -->
-				<h3 class="pure-u-1">Joe Schlimmer</h3>
-                <h4>Skills & Experience</h4>
 				<ul>
-                        <li>Python</li>
-                        <li>PHP, Yii framework</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Linux</li>
-                        <li>Git, Bash, LAMP stack</li>
-                        <li>Jekyll</li>
-                        <li>Wordpress</li>
-                        <li>Bootstrap, PureCSS</li>
+                        {% for post in site.posts limit: 5 %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endfor %}
                 </ul>
             </div>
 <!--
@@ -35,11 +27,18 @@ layout: default
 	<div class="pure-u-md-1-5 container">
 		<div class="pure-u-1 content">
 			<div class="pure-u-1 article">
-			<h1 class="pure-u-1 section-header">Inside</h1>
+			<h1 class="pure-u-1 section-header">Things I do</h1>
+                <h4>Inside</h4>
 				<ul>
-                        {% for post in site.posts limit: 5 %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                        {% endfor %}
+                        <li>Python</li>
+                        <li>PHP, Yii framework</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Linux</li>
+                        <li>Git, Bash, LAMP stack</li>
+                        <li>Jekyll</li>
+                        <li>Wordpress</li>
+                        <li>Bootstrap, PureCSS</li>
                 </ul>
 			</div>
 		</div>
