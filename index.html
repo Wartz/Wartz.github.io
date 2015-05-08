@@ -9,7 +9,9 @@ layout: default
 				<!-- /////////////////////////////////////////////////////// -->
 				<ul>
                         {% for post in site.posts limit: 5 %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        <div class="pure-h-1 article">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </div>
                         {% endfor %}
                 </ul>
             </div>
@@ -27,8 +29,8 @@ layout: default
 	<div class="pure-u-md-1-5 container">
 		<div class="pure-u-1 content">
 			<div class="pure-u-1 article">
-			<h1 class="pure-u-1 section-header">Things I do</h1>
-                <h4>Inside</h4>
+			<h1 class="pure-u-1 section-header">Things I do...</h1>
+            <!--<h4>Inside</h4>-->
 				<ul>
                         <li>Python</li>
                         <li>PHP, Yii framework</li>
@@ -45,10 +47,13 @@ layout: default
 	</div>
 	<div class="pure-u-md-1-5 container">
 		<div class="pure-u-1 content">
+            <h1 class="pure-u-1 section-header">in real life. </h1>
 			<div class="pure-u-1 article">
-				<h1 class="pure-u-1 section-header">Outside</h1>
-				<h5>Canoe Racing</h5>
-                <h5>Hiking</h5>
+                    <!--<h4>Outside</h4>-->
+                    <ol>
+				        <li>Canoe Racing</li>
+                        <li>Hiking</li>
+                    </ol>
 			</div>
 		</div>
 	</div>
