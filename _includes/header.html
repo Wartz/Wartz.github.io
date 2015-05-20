@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Joe Schlimmer: Odds and Ends</title>
-	<!--<link rel="stylesheet" href="css/pure-min.css">-->
-	<!--[if lte IE 8]>
-	     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-	<![endif]-->
-	<!--[if gt IE 8]><!-->
-	          <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-	<!--<![endif]-->
+    <!--[if lte IE 8]>
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
 	<link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
 	<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"></script>
 
 </head>
@@ -30,12 +30,13 @@
 		</div>
 		<h2>Nobody said anything about that</h2>
 	</div>
-	<div class="pure-u-1 pure-menu pure-menu-open pure-menu-horizontal" id="horizontal-menu">
-            <span class="pure-menu-heading"><a href="/">Joe Schlimmer dot com</a></span>
-		<ul id="std-menu-items">
-                <li class="pure-menu-selected"><a href="{{ site.url }}/about">About</a></li>
-            <li><a href="{{ site.url }}/racing">Racing</a></li>
-            <li><a href="{{ site.url }}/contact">Contact</a></li>
+	<div class="pure-u-1 pure-menu pure-menu-horizontal" id="horizontal-menu">
+		<ul id="pure-menu-list">
+            <a href="/" class="pure-menu-heading pure-menu-link">Joe Schlimmer dot com</a>
+            <li class="pure-menu-item"><a href="{{ site.url }}/about" class="pure-menu-link">About</a></li>
+            <li class="pure-menu-item"><a href="{{ site.url }}/racing" class="pure-menu-link">Racing</a></li>
+            <li class="pure-menu-item"><a href="{{ site.url }}/contact" class="pure-menu-link">Contact</a></li>
+            <li class="pure-menu-item"><a href="http://github.com/wartz" class="pure-menu-link">Github</a></li>
             <!--	<li><a href="http://www.wartz-crp.net">Wartz's Crappy Recs Page</a></li> -->
 		<!--	<li>
 				<a href="#">Links</a>

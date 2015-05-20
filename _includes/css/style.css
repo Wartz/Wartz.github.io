@@ -73,8 +73,27 @@ h4 {
 }
 
 .article {
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 	width:100%;
+    font-size:1.5em;
+    padding: 0 0 0 0;
+}
+
+.article a {
+        text-decoration:none;
+}
+
+.article a:hover {
+        text-decoration:underline;
+}
+
+.article ul {
+        list-style:none;
+}
+
+.article li {
+        list-style:none;
+        padding: 0 0 1.2em 0;
 }
 
 .floatLeft {
@@ -84,7 +103,6 @@ h4 {
 
 #horizontal-menu {
 	border-bottom: 1px solid #b7b7b7;
-	height: 2.25em;
     max-width:1024px;
     margin-left:auto;
     margin-right:auto;
