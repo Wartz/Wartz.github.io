@@ -1,5 +1,9 @@
 .DS_Store
-Gemfile*
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor
+.sass-cache/
 _site/
 *.swp
 tmp/
