@@ -4,7 +4,7 @@ title: Broken Dokuwiki Hogfather instance after updating LXC host from Debian Bu
 --- 
 
 
-I upgraded an unprivleged Linux Container (LXC) from Debian buster to debian Bullsye on a Proxmox host that has been recently updated from 6.4 to 7.1.
+I upgraded an unprivileged Linux Container (LXC) from Debian buster to debian Bullsye on a Proxmox host that has been recently updated from 6.4 to 7.1.
 
 Post upgrade, Dokuwiki was not loading and it took a while to login to the server over ssh.
 
@@ -131,4 +131,4 @@ Celebrate with coffeeeeeeeee!!!
 
 I should have reviewed the software prerequisites for dokuwiki -***before***- upgrading from Buster to Bullseye to see if any dokuwiki dependencies were getting updated in Bullseye. 
 
-Most likely, I still would have not forseen the php-fpm version issue in Dokuwiki's nginx sites-available config, but it still would have narrowed down the possible issues a bit. I definitely lucked out that the `nginx.pid: invalid argument` error was showing up in **journalctl -xe** while I was troubleshooting the lxc/permissions/namespace/systemd/logind/apparmor errors.w
+Most likely, I still would have not forseen the php-fpm version issue in Dokuwiki's nginx sites-available config, but it still would have narrowed down the possible issues a bit. I definitely lucked out that the `nginx.pid: invalid argument` error was showing up in **journalctl -xe** while I was troubleshooting the lxc/permissions/namespace/systemd/logind/apparmor errors.
