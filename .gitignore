@@ -7,3 +7,4 @@ vendor
 _site/
 *.swp
 tmp/
+Thumbs.db
