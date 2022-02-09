@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Classic ski at Tug Hill Outfitters
+author: Joe Schlimmer
 reallife: Skiing
 tags: [cross country skiing, tug hill outfitters, xc, outdoors]
 published: true
