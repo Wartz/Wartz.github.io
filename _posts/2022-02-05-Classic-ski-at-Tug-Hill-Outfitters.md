@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Classic ski at Tug Hill Outfitters
 reallife: Skiing
 tags: [cross country skiing, tug hill outfitters, xc, outdoors]
