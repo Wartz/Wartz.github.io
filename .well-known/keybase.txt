@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/joeschlimmer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joeschlimmer.com
+  * I am joeschlimmer (https://keybase.io/joeschlimmer) on keybase.
+  * I have a public key ASBAqLMhmxUjqlmbhyThC_Sp5SD1uB9yFSeovahetAvlQgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012040a8b3219b1523aa599b8724e10bf4a9e520f5b81f721527a8bda85eb40be5420a",
+      "host": "keybase.io",
+      "kid": "012040a8b3219b1523aa599b8724e10bf4a9e520f5b81f721527a8bda85eb40be5420a",
+      "uid": "7da097064f00334de95edecb9b10ec19",
+      "username": "joeschlimmer"
+    },
+    "merkle_root": {
+      "ctime": 1653440119,
+      "hash": "f03a7b801e6c779b5bb68d5959bb75a1618bbb68ae59af0f9b9b0819e35552c9bb158e18e8cb06cc0fe57f01b9739569ce739acaaeeb4bb61aa957c812b3982e",
+      "hash_meta": "47bf737fa6fe5b53120beccafc471bff5c83ef31701eca9d9b690fecf622603d",
+      "seqno": 22549183
+    },
+    "service": {
+      "entropy": "01+ZyZIMcUbraFD54WxMfPlm",
+      "hostname": "joeschlimmer.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.2"
+  },
+  "ctime": 1653440159,
+  "expire_in": 504576000,
+  "prev": "6236e7a25ab64e8cdef53defdfe821140542d57280fb66b07e8507a5f83947ae",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQKizIZsVI6pZm4ck4Qv0qeUg9bgfchUnqL2oXrQL5UIKp3BheWxvYWTESpcCB8QgYjbnolq2Toze9T3v3+ghFAVC1XKA+2awfoUHpfg5R67EINffOLIJ7JDUDMpqKm5p4xRmp3Pn1gw+4Coh/2IrpbaHAgHCo3NpZ8RAI1+NdXG/rSlEDoyg7O4oJ4MMipHtUzIEAWBcGhf9FOxiXM8bj6XbhxTBbNq9TLUwnYGXVVxA3N9HnMuX6Ti2BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC/3AAdgvx0AiEmGQD0arfdcZdKhLLQe3nPuoqNZwL/Zo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joeschlimmer
+
+==================================================================
